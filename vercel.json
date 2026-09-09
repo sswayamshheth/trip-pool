@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build:web",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/expense/form", "destination": "/expense/form.html" },
+    { "source": "/expense/refund", "destination": "/expense/refund.html" },
+    { "source": "/expense/cancel", "destination": "/expense/cancel.html" },
+    { "source": "/expense/:id", "destination": "/expense/[id].html" },
+    { "source": "/itinerary/form", "destination": "/itinerary/form.html" },
+    { "source": "/itinerary/whatif", "destination": "/itinerary/whatif.html" },
+    { "source": "/members/form", "destination": "/members/form.html" },
+    { "source": "/members/methods", "destination": "/members/methods.html" },
+    { "source": "/members/:id", "destination": "/members/[id].html" },
+    { "source": "/payments/scan", "destination": "/payments/scan.html" },
+    { "source": "/payments/send", "destination": "/payments/send.html" },
+    { "source": "/payments/methods", "destination": "/payments/methods.html" },
+    { "source": "/trips/new", "destination": "/trips/new.html" },
+    { "source": "/trips/edit", "destination": "/trips/edit.html" }
+  ]
+}
